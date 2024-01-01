@@ -1,0 +1,60 @@
+{
+  "records": [
+    {
+      "id": "1",
+      "name": "patient1",
+      "gender": "male",
+      "age": 30,
+      "condition": "Diabetes"
+    },
+    {
+      "id": "2",
+      "name": "patient2",
+      "gender": "male",
+      "age": 25,
+      "condition": "Diabetes"
+    },
+    {
+      "id": "3",
+      "name": "patient3",
+      "gender": "male",
+      "age": 40,
+      "condition": "Diabetes"
+    },
+    {
+      "id": "4",
+      "name": "patient4",
+      "gender": "male",
+      "age": 50,
+      "condition": "Diabetes"
+    },
+    {
+      "id": "5",
+      "name": "patient5",
+      "gender": "male",
+      "age": 70,
+      "condition": "Diabetes"
+    },
+    {
+      "name": "Patient5",
+      "gender": "Male",
+      "age": "22",
+      "condition": "no",
+      "id": "XyRq0mt"
+    },
+    {
+      "name": "Patient6",
+      "gender": "Male",
+      "age": "22",
+      "condition": "no",
+      "id": "XyRq0mt"
+    },
+    {
+      "name": "Patient7",
+      "age": "111",
+      "gender": "Male",
+      "condition": "Diabetes",
+      "id": "niH4EPb"
+    }
+  ]
+}

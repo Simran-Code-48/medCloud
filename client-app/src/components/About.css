@@ -1,0 +1,210 @@
+/* Reset some default styling */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	line-height: 1.6;
+  }
+  
+  .container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+  }
+  
+  /* Header */
+  .header {
+	text-align: center;
+	padding: 40px 0;
+  }
+  
+  .header h1 {
+	font-size: 36px;
+	color: #333;
+  }
+  
+  /* Sections */
+  .section {
+	padding: 40px 0;
+  }
+  
+  .section h2 {
+	font-size: 28px;
+	color: #333;
+	margin-bottom: 20px;
+  }
+  
+  .section ul,
+  .section ol {
+	list-style: none;
+	padding-left: 20px;
+  }
+  
+  .section ul li,
+  .section ol li {
+	font-size: 18px;
+	margin-bottom: 10px;
+  }
+  
+  /* Call to action button */
+  .signup-button {
+	background-color: #007bff;
+	color: #fff;
+	padding: 12px 24px;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+  }
+  
+  .signup-button:hover {
+	background-color: #0056b3;
+  }
+  
+  /* Footer */
+  .footer {
+	text-align: center;
+	padding: 20px 0;
+	color: #777;
+  }
+  
+  /* Responsive layout adjustments */
+  @media (max-width: 768px) {
+	.container {
+	  padding: 10px;
+	}
+  
+	.header h1 {
+	  font-size: 24px;
+	}
+  
+	.section h2 {
+	  font-size: 24px;
+	}
+  
+	.section ul li,
+	.section ol li {
+	  font-size: 16px;
+	}
+  
+	.signup-button {
+	  padding: 10px 20px;
+	  font-size: 16px;
+	}
+  }
+  
+  /* Reset some default styling */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	line-height: 1.6;
+  }
+  
+  .container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+  }
+  
+  /* Hero section */
+  .hero {
+	background: linear-gradient(to bottom, rgba(0, 123, 255, 0.8), rgba(0, 123, 255, 0.5)), center/cover no-repeat;
+	color: #fff;
+	text-align: center;
+	padding: 100px 0;
+  }
+  
+  .hero h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+  }
+  
+  /* Sections */
+  .section {
+	padding: 40px 0;
+  }
+  
+  .section h2 {
+	font-size: 28px;
+	color: #333;
+	margin-bottom: 20px;
+  }
+  
+  .section ul,
+  .section ol {
+	list-style: none;
+	padding-left: 20px;
+  }
+  
+  .section ul li,
+  .section ol li {
+	font-size: 18px;
+	margin-bottom: 10px;
+  }
+  
+  /* Call to action button */
+  .signup-button {
+	background-color: #007bff;
+	color: #fff;
+	padding: 12px 24px;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+  }
+  
+  .signup-button:hover {
+	background-color: #0056b3;
+  }
+  
+  /* Footer */
+  .footer {
+	text-align: center;
+	padding: 20px 0;
+	color: #777;
+  }
+  
+  /* Responsive layout adjustments */
+  @media (max-width: 768px) {
+	.container {
+	  padding: 10px;
+	}
+  
+	.hero {
+	  padding: 80px 0;
+	}
+  
+	.hero h1 {
+	  font-size: 36px;
+	}
+  
+	.section h2 {
+	  font-size: 24px;
+	}
+  
+	.section ul li,
+	.section ol li {
+	  font-size: 16px;
+	}
+  
+	.signup-button {
+	  padding: 10px 20px;
+	  font-size: 16px;
+	}
+  }
+  
