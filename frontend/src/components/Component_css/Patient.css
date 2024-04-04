@@ -1,0 +1,42 @@
+.basic, .followup{
+	background: white;
+	padding: 20px;
+	border-radius: 30px;
+	margin: 30px auto;
+	width: 95%;
+}
+.basic_details table{
+	margin: 10px 0 10px 20px;
+	height: 85%;
+}
+.basic_details table tr{
+	margin: 20px 0;
+}
+.basic_details th{
+	width: 100px;
+}
+.basic_details td{
+	width: auto;
+}
+.followup .top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+hr{
+	margin: 10px 0;
+}
+.detail{
+	border: none;
+	padding: 8px;
+	border-radius: 8px;
+	background: var(--color-green);
+	color: white;
+	font-size: 1rem;
+}
+.detail:hover{
+	border: 2px solid var(--color-green);
+	background: white;
+	color: var(--color-green);
+	font-size: 1rem;
+}

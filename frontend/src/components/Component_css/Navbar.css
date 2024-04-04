@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+:root{
+	--color-gray:#7F7F7F;
+	--color-green:#34A853;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:sans-serif;
+}
+
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	font-size: 1rem;
+}
+a:hover{
+	color: red;
+}
+/* Header */
+header{
+	background: white;
+	position: relative;
+	padding: 0 2rem;
+	box-shadow: 0 1px 3px 0 gray;
+}
+.navbar{
+	width: 100%;
+	height: 60px;
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar .links{
+	display: flex;
+	gap: 2rem;
+	align-items: center;
+}
+.navbar .links a{
+	color: var(--color-gray);
+}
+.navbar .links a:hover{
+	color: var(--color-green);
+}
+.navbar .toggle_btn{
+	color: gray;
+	font-size: 1.5rem;
+	cursor: pointer;
+	display: none;
+}
+.profile{
+	box-sizing: border-box;
+	background:var(--color-green);
+	color:white;
+	font-size:30px;
+	padding:5px 5px 5px 5px; 
+	border-radius:25px;
+}
+.profile:hover{
+	border:2px solid var(--color-green);
+	background: white;
+	color:var(--color-green);
+}
+.navbar .links a.active_btn{
+	padding: 0.6rem 1.5rem;
+	border-radius: 1.2rem;
+	border: none;
+	color: white;
+	background: var(--color-green);
+	border: 2px solid var(--color-green);
+}
+.navbar .links a.active_btn:hover{
+	border: 2px solid var(--color-green);
+	background: white;
+	color: var(--color-green);
+}
+/* Dropdown */
+.dropdown_menu{
+	display: none;
+	position: absolute;
+	right: 2rem;
+	top: 60px;
+	width: 300px;
+	height: 0;
+	background: rgba(0, 0, 0, 0.05);
+	backdrop-filter: blur(15px);
+	border-radius: 10px;
+	overflow: hidden;
+}
+.dropdown_menu.open{
+	height: max-content;
+}
+.dropdown_menu li{
+	padding: 0.7rem;
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	
+}
+.dropdown_menu li a{
+	color: var(--color-gray);
+}
+.dropdown_menu li a.active_btn{
+	padding: 0.6rem 1.5rem;
+	border-radius: 1.2rem;
+	border: none;
+	color: white;
+	background: var(--color-green);
+	border: 2px solid var(--color-green);
+}
+.dropdown_menu li a.active_btn:hover{
+	border: 2px solid var(--color-green);
+	background: white;
+	color: var(--color-green);
+}
+.dropdown_menu .active_btn{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+/* Responsive design */
+@media (max-width: 700px){
+	.navbar .links,
+	.navbar .action_btn{
+		display: none;
+	}
+
+	.navbar .toggle_btn{
+		display: block;
+	}
+
+	.dropdown_menu{
+		display: block;
+	}
+}
+@media (max-width:400px){
+	.dropdown_menu{
+		left: 2rem;
+		width: unset;
+	}
+}

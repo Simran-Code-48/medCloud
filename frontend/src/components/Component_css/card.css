@@ -1,0 +1,61 @@
+:root{
+	--color-gray:#7F7F7F;
+	--color-green:#34A853;
+	--color-card-blue:linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
+	--color-card-green:linear-gradient(195deg, rgb(102, 187, 106), rgb(67, 160, 71));
+	--color-card-red:linear-gradient(195deg, rgb(236, 64, 122), rgb(216, 27, 96));
+}
+.card_container{
+	margin: 30px auto;
+	width: 95%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap:3vw;
+}
+.card{
+	padding: 20px 30px;
+	background: white;
+	border: none;
+	border-radius: 20px;
+	flex: 1 0 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.card .left span{
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 7vh;
+	border-radius: 1rem;
+	/* color:rgb(70, 234, 179); */
+}
+.card h4{
+	font-size: 1.2rem;
+	margin-top: 10px;
+	color: var(--color-gray);
+}
+.card h3{
+	font-size: 2.5rem;
+	/* color: rgb(70, 234, 179); */
+	color: var(--color-gray);
+	margin-bottom: 15px;
+}
+.card button{
+	border: none;
+	background: rgba(0, 0, 0, 0.1);
+	padding: 10px;
+	border-radius: 10px;
+	color: var(--color-green);
+	font-size: 1rem;
+	text-decoration: underline;
+}
+@media (max-width:900px){
+	.card_container{
+		flex-direction: column;
+		gap: 15px;
+	}
+	.card{
+		width: 96%;
+	}
+}
