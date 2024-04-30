@@ -1,6 +1,6 @@
 import React from 'react'
 import DashboardOverview from './DashboardOverview'
-import RecentAppointments from '../../../../components/src/Components/RecentAppointments'
+import RecentAppointments from './RecentAppointments'
 import RecentFollowups from './RecentFollowups'
 
 const Dashboard = () => {
